@@ -43,14 +43,15 @@ header a {
 }
 
 .background-image {
+    position: relative;
     /* display: flex; */
     background-color: #130606;
     /* background-position: ; */
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
-    width: auto;
+    /* height: 100%; */
+    /* width: 100%; */
 }
 
 .main {
@@ -174,7 +175,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10vh;
+    padding: 12.5vh;
 }
 
 .quote-text {
@@ -184,6 +185,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .testimonials-name {
@@ -195,4 +197,8 @@ p {
     /* identical to box height, or 153% */
     color: #FFFFFF;
     margin: 0px;
+}
+
+blockquote {
+    margin: 0px
 }
